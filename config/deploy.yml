@@ -65,6 +65,7 @@ accessories:
         - MYSQL_PASSWORD
     volumes:
       - /var/lib/mysql
+      # - "/mnt/wordpress:/var/www/html"
 
 # Inject ENV variables into containers (secrets come from .kamal/secrets).
 #
